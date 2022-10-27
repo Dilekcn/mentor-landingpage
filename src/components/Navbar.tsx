@@ -17,10 +17,10 @@ function Navbar() {
     <VStack bg="#202020" color="#FFFFFF">
       <Flex
         maxW="950px"
-        w="full"
+        w={{ base: "90%", md: "full" }}
         justifyContent={"space-between"}
         alignItems="center"
-        h={"15vh"}
+        h="15vh"
         px="15px"
       >
         <Link href="/">
