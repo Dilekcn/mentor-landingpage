@@ -23,6 +23,7 @@ const Form = () => {
           p="25px"
           width={{ base: "350px", md: "380px" }}
           children={strings.form.button}
+          // children={strings.form.button}
         />
       </FormControl>
     </form>
