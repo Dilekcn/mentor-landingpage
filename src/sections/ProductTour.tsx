@@ -2,13 +2,7 @@ import { Center, VStack, Image, Text } from "@chakra-ui/react";
 import { Inner, Title, strings } from "../App";
 
 const ProductTour = () => (
-  <VStack
-    w="full"
-    display="flex"
-    justifyContent="center"
-    alignItems="center"
-    bg="red.300"
-  >
+  <VStack w="full" display="flex" justifyContent="center" alignItems="center">
     <Inner>
       <Title color="grey.200" text={strings.video.title} />
     </Inner>

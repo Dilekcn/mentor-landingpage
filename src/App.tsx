@@ -6,6 +6,7 @@ import Integrations from "./sections/Integrations";
 import ProductTour from "./sections/ProductTour";
 import Pricing from "./sections/Pricing";
 import Mentor from "./sections/Mentor";
+import HumanFirst from "./sections/HumanFirst";
 
 export const strings = {
   header: {
@@ -35,7 +36,7 @@ export const strings = {
     title:
       " “A mentor is someone who sees more talent within you than you see in yourself” ",
   },
-  humanFurst: {
+  humanFirst: {
     title: "Human-first",
     caption:
       "Instant check-in means less time on admin and more time building meaningful relationships ",
@@ -77,6 +78,7 @@ export const Title = ({ text, color }: TitleProps) => (
 const App = () => (
   <ChakraProvider theme={theme}>
     <Header />
+    <HumanFirst />
     <Trainees />
     <Integrations />
     <ProductTour />
