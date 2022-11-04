@@ -137,7 +137,11 @@ const Right = () => (
 );
 
 const Header = () => (
-  <Box minH={"100vh"} background="grey.900" mb={{ base: 40, md: 0 }}>
+  <Box
+    minH={"100vh"}
+    background="grey.900"
+    // mb={{ base: 40, md: 0 }}
+  >
     <Inner>
       <Stack minH={"100vh"}>
         <Box height="150px">

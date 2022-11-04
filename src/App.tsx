@@ -41,6 +41,9 @@ export const strings = {
     caption:
       "Instant check-in means less time on admin and more time building meaningful relationships ",
   },
+  realTime: {
+    title: "Get real-time insights into trainee & intern progress",
+  },
 };
 
 const theme = extendTheme({
